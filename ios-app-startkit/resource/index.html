@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>我是页面君</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="email=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+
+  <style>
+    .wrapper h2 {  margin-top: 100px; text-align: center; }
+    .wrapper p { text-align: center; }
+    .button, .input { display: inline-block; width: 50%; height: 30px; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h2>Hello，<span id="username"></span></h2>
+    <p><input id="title" name="title" class="input"></p>
+    <p><button id="set-button" class="button">Set Title</button></p>
+    <p><button id="push-button" class="button">Push Window</button></p>
+    <p><button id="pop-button" class="button">Pop Window</button></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
