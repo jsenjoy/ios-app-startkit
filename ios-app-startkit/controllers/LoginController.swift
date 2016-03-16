@@ -97,7 +97,7 @@ class LoginController: ViewController {
     
     if let username = self.nameField.text {
       UserStore.set("username", value: username)
-      print("Username: " + username)
+      print("Username: " + username as String)
       
       nc.postNotification(NSNotification(name: "appLoginOperation", object: nil))
     }

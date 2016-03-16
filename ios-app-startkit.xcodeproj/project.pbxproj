@@ -24,6 +24,7 @@
 		FEC020431C99670600BD2A80 /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC020421C99670600BD2A80 /* RootController.swift */; };
 		FEC020451C99672500BD2A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC020441C99672500BD2A80 /* ViewController.swift */; };
 		FEC020471C99674A00BD2A80 /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC020461C99674A00BD2A80 /* Webview.swift */; };
+		FEE455571C997ECC0032126B /* avatar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEE455561C997ECC0032126B /* avatar.jpeg */; };
 		FEF64DB71C970A0F00379189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF64DB61C970A0F00379189 /* AppDelegate.swift */; };
 		FEF64DBE1C970A0F00379189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF64DBD1C970A0F00379189 /* Assets.xcassets */; };
 		FEF64DC11C970A0F00379189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF64DBF1C970A0F00379189 /* LaunchScreen.storyboard */; };
@@ -47,6 +48,7 @@
 		FEC020421C99670600BD2A80 /* RootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootController.swift; path = controllers/RootController.swift; sourceTree = "<group>"; };
 		FEC020441C99672500BD2A80 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = controllers/ViewController.swift; sourceTree = "<group>"; };
 		FEC020461C99674A00BD2A80 /* Webview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Webview.swift; path = views/Webview.swift; sourceTree = "<group>"; };
+		FEE455561C997ECC0032126B /* avatar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = avatar.jpeg; path = images/avatar.jpeg; sourceTree = "<group>"; };
 		FEF64DB31C970A0F00379189 /* ios-app-startkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-app-startkit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF64DB61C970A0F00379189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEF64DBD1C970A0F00379189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				FEAD0C831C97E93D005135E1 /* screen.jpeg */,
 				FEC020391C992B8900BD2A80 /* logout.jpeg */,
 				FEC0203B1C992CD200BD2A80 /* webview.jpeg */,
+				FEE455561C997ECC0032126B /* avatar.jpeg */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE455571C997ECC0032126B /* avatar.jpeg in Resources */,
 				FEC0203C1C992CD200BD2A80 /* webview.jpeg in Resources */,
 				FE2B932F1C98733000DBA4BE /* resource in Resources */,
 				FEC0203A1C992B8900BD2A80 /* logout.jpeg in Resources */,
